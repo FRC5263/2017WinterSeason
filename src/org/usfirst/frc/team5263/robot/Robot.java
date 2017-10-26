@@ -12,6 +12,10 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
  * directory.
  */
 public class Robot extends IterativeRobot {
+	
+	TeleOperated teleOp = new TeleOperated();
+	AutoVirtualDriver virtualDriver = new AutoVirtualDriver();
+	
 	final String defaultAuto = "Default";
 	final String customAuto = "My Auto";
 	String autoSelected;
