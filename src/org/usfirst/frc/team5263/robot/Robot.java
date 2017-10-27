@@ -48,7 +48,6 @@ public class Robot extends IterativeRobot {
 	 * SendableChooser make sure to add them to the chooser code above as well.
 	 */
 	
-	
 	@Override
 	public void autonomousInit() {
 		virtualDriver.init();
